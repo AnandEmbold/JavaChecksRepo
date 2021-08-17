@@ -1,4 +1,3 @@
-
 class ExpressionAlwaysFalse {
     public void someCheck(boolean b) {
 		int  i = -1;
