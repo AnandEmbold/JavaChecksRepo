@@ -1,7 +1,16 @@
 class ExpressionAlwaysFalse {
     public void someCheck(boolean b) {
-		int  i = -1;
-		if(b == true) {
+	        int  i = -1;
+	        if(false) {
+			i = 0;
+		}	    
+	        if(true) {
+			i = 0;
+		}
+	    
+	        //////////////
+		
+	        if(b == true) {
 			i=0;
 		}
 		
