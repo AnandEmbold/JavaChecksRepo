@@ -4,7 +4,7 @@ class Base implements Clonable {
     
     @Override Object clone() throws CloneNotSupportedException {
       Base myClone = new Base();
-      myClone = i = this.i;
+      myClone.i = this.i;
       return myClone;
     }
 }
