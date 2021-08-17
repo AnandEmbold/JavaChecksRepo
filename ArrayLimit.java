@@ -2,7 +2,7 @@
 class ArrayLimit {
     public void someCheck(String []someArr, int inputData, char inputData2) {
 		int data = 1;
-		unsigned int data2 = 1;
+		char data2 = 1;
 		String[] myArr = new String[3];
 		
 		if(data<=sommeArr.length) {
