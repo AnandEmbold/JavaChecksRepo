@@ -1,5 +1,5 @@
 
-class CloneSuper implements Cloneable {
+class CloneSuper extends CloneSuperBase implements Cloneable {
     int i;
     
     @Override 
