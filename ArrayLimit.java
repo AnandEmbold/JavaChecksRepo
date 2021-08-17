@@ -10,7 +10,7 @@ class ArrayLimit {
 		}
 
 		//Check for final
-		int final dd = 1;
+		final int dd = 1;
 		if (dd <= someArr.length) {
 			String t = someArr[data];
 		}
