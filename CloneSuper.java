@@ -1,8 +1,9 @@
 
-class Base implements Clonable {
+class CloneSuper implements Clonable {
     int i;
     
-    @Override Object clone() throws CloneNotSupportedException {
+    @Override 
+    public CloneSuper clone() throws CloneNotSupportedException {
       Base myClone = new Base();
       myClone.i = this.i;
       return myClone;
