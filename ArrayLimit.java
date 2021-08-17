@@ -9,6 +9,12 @@ class ArrayLimit {
 			String t = someArr[data];
 		}
 
+		//Check for final
+		int final dd = 1;
+		if (dd <= someArr.length) {
+			String t = someArr[data];
+		}
+
 		// ** Start ** Should not get ISsues
 		if (data <= someArr.length && data >= 0) {
 			String t = someArr[data];
