@@ -1,8 +1,9 @@
 
-class CloneDerived  extends CloneBase {
+class CloneDerived  extends CloneBase implements Clonable {
     int j;
     
-    @Override Object clone() throws CloneNotSupportedException {
+    @Override 
+    CloneDerived clone() throws CloneNotSupportedException {
       CloneDerived myDerClone = (CloneDerived)super.clone();
       myDerClone.j = this.j;
       return myDerClone;
