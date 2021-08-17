@@ -8,6 +8,21 @@ class ArrayLimit {
 		if(data<=sommeArr.length) {
 			String t = someArr[data];
 		}
+	    
+	        //** Start ** Should not get ISsues
+	        if(data<=sommeArr.length && data >=0 ) {
+			String t = someArr[data];
+		}	       
+	        if(data<=sommeArr.length && data >0 ) {
+			String t = someArr[data];
+		}
+	        if(data>=0 && data<=sommeArr.length) {
+			String t = someArr[data];
+		}	       
+	        if(data >0 && data<=sommeArr.length) {
+			String t = someArr[data];
+		}
+	        //**End**  Should not get ISsues
 		
 		if(data<=myArr.length) {
 			String t = myArr[data];
