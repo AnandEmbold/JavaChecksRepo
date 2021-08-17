@@ -1,16 +1,28 @@
 class ExpressionAlwaysFalse {
     public void someCheck(boolean b) {
-	        int  i = -1;
-	        if(false) {
+		int  i = -1;
+		
+		if(false) {
 			i = 0;
 		}	    
 	        if(true) {
 			i = 0;
 		}
-	    
-	        //////////////
+	        
+	    //////    
+		if(b == true) {
+			i=0;
+		}
 		
-	        if(b == true) {
+		
+		final boolean b1 = false;
+		if(b1) {
+			i=0;
+		}
+		if(b1!=true){
+			i=0;
+		}
+		if(!b1){
 			i=0;
 		}
 		
